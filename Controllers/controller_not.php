@@ -15,7 +15,6 @@
 		{
 			$data = $this->model->not404();
 			$this->view->generate('not_view.php', $data);
-			print_r($data);
 		}
 
 	}
