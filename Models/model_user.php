@@ -30,6 +30,7 @@
 			  	}
 
 			}
+			else Route::ErrorPage404();
 		}
 	}
 ?>
